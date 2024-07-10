@@ -1,0 +1,20 @@
+.phone{
+     background-color: "#DACCBA";
+     color: "#4D4949";
+     width: 100vw !important;
+     justify-content: center;
+     display: flex;
+     height: 20px;
+}
+
+.p-img{
+    height: 2px !important;
+    width: 2px !important;
+}
+
+.western{
+    background-image: url('/warm.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
