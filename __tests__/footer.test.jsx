@@ -4,5 +4,5 @@ import Footer from '../src/app/components/footer'
  
 test('Footer', () => {
   render(<Footer />)
-  expect(screen.getByTestId('tm')).toBeDefined()
+  expect(screen.getByTestId('footer')).toBeDefined()
 })

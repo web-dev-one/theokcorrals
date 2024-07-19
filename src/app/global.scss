@@ -18,3 +18,18 @@
     background-position: bottom;
     background-repeat: no-repeat;
 }
+
+.horseshade{
+    background-image: url('/mainhorsebackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 30vh;
+}
+
+.links{
+    font-size: xx-large;
+    margin: 2px;
+    padding: 2px;
+    color: rgb(103, 19, 0)
+}
