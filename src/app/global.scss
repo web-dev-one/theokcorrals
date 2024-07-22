@@ -55,13 +55,15 @@ $medium: 760px;
     top: -10px !important;
 }
 
+.centerMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 41% !important;
+
+} 
 @media only screen and (min-width: $small) and (max-width: $medium){
     .centerMobile{
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      margin-left: 0% !important;
-      padding-left: 0% !important;
-      position: relative;
+     margin-left: 10% !important;
     }
 }

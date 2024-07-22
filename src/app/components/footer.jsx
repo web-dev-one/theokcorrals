@@ -6,12 +6,12 @@ export default function Footer(){
 
     return(<>
             <div className='d-flex flex-column container-fluid'>
-             <span className="centerMobile">
+             <span className="centerMobile mx-auto">
              <Image     
                         style={ {position: 'fixed', bottom: 0}}
                         src="/Horse-Shade-Maricopa-County-AZ-logo_inPixio.png"
-                        width={400}
-                        height={400}
+                        width={300}
+                        height={300}
                         alt="Ok-Corrals LLC logo"
                         loading='lazy'
                     />
