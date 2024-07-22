@@ -1,6 +1,10 @@
-import { Inter, Rye } from "next/font/google";
+import { Inter, Rye, Kalnia } from "next/font/google";
 import "./globals.css";
 
+const kalnia = Kalnia({
+  weight: '700',
+  subsets: ['latin']
+})
 
 const inter = Inter({ subsets: ["latin"] });
 const rye = Rye({

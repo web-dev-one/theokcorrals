@@ -7,14 +7,14 @@ export default function Footer(){
     return(<>
             <div className='d-flex flex-column container-fluid'>
              <span className="centerMobile mx-auto">
-             <Image     
+             {/* <Image     
                         style={ {position: 'fixed', bottom: 0}}
                         src="/Horse-Shade-Maricopa-County-AZ-logo_inPixio.png"
                         width={300}
                         height={300}
                         alt="Ok-Corrals LLC logo"
                         loading='lazy'
-                    />
+                    /> */}
             </span>
             <footer data-testid="footer" className="western container-fluid">
                 <div className="mx-auto text-center">
