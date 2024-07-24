@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+.rye-regular {
+    font-family: "Rye", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .links{
+    font-size: xx-large;
+    margin: 2px;
+    padding: 2px;
+    color: rgb(103, 19, 0)
+}
+
+a{
+    font-size: xx-large;
+    // margin: 2px;
+    // padding: 2px;
+    color: rgb(103, 19, 0);
+    text-decoration: none;
+}
+
+.moveup{
+    position: relative;
+    top: -10px !important;
+}
+
+.phone{
+    background-color: "#DACCBA";
+    color: "#4D4949";
+    width: 100vw !important;
+    justify-content: center;
+    display: flex;
+    height: 20px;
+}

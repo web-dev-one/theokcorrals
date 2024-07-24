@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Phone from "./phone"
 import NavBar from "./navbar"
+import '../global.scss'
 
-export default function MyHead(){
+export default function MyHead({style}){
 
     return(<>
             <Head>
@@ -20,8 +21,8 @@ export default function MyHead(){
                 <meta property="og:image" content="https://www.theokcorrals.com/og-image.jpg" /> {/* Open Graph image for social media */}
             </Head>
             <div className="mx-auto mt-0 pt-0 cpanel">
-                <Phone />
-                <NavBar />
+            <Phone />
+            <NavBar style={style}/>
             </div>
            </>)
 }

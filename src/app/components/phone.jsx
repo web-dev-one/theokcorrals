@@ -7,7 +7,7 @@ const number = "520.730.7020"
 export default function Phone() {
   return (
     <div 
-      className="flex justify-center phone"
+      className="justify-center phone fs-6 rye-regular"
       style={{ backgroundColor: "#DACCBA", color: "#4D4949" }}
     >
       <Image 
@@ -16,9 +16,9 @@ export default function Phone() {
         height={20}
         alt="phone"
        />
-      <a data-testid="phone" href={`tel:${number}`} >
-        <span className="font-bold">Call us</span> {number}
-      </a>
+      <a data-testid="phone" href={`tel:${number}`} className='' >
+        <span className="d-inline-flex align-top fs-6 rye-regular
+        ">Call us </span></a>&nbsp;{number}
     </div>
   );
 }
