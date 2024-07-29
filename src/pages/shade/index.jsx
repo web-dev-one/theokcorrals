@@ -2,13 +2,15 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '../../app/global.scss'
 import '../styles/index.scss'
 import Layout from "../../app/components/Layout/layout"
+import Image from 'next/image'
+import BBB from '@/app/components/BBB'
+import Materials from '@/app/components/Materials'
 import ImageGallery from '../../app/components/ImageGallery/ImageGallery'
 
 
 export default function Shade(){
 
     return(<>
-          
             <Layout>
                 <div className='d-flex flex-column w-92 mx-auto' >
                      {/* <Image     
@@ -19,10 +21,11 @@ export default function Shade(){
                         alt="Ok-Corrals LLC logo"
                         loading='lazy'
                     /> */}
+                    <BBB />
+                    <Materials />
                     <ImageGallery />
                  <h1 className='mx-auto rye-regular'>No Shade</h1>
                 </div>
             </Layout>
-           
            </>)
 }

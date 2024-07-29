@@ -6,12 +6,12 @@ export default function BBB(){
 
     return(<>
             {/* <h1 className="mb-0 pb-0 bbb kal text-primary"><strong><Link rel="nofollow" target="_blank" passHref={true} href={mybbb}>A+ Rating with Better Business Bureau</Link></strong></h1> */}
-            <div className='my-0'>
+            <div className='my-0 mx-auto'>
             <Link rel="nofollow" target="_blank" passHref={true} href={mybbb}>
             <Image 
                 src='/bbb.png'
-                width={120}
-                height={100}
+                width={220}
+                height={200}
                 alt='A+ Rating with Better Business Bureau'
             />
             </Link>

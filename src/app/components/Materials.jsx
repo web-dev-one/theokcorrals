@@ -8,10 +8,10 @@ const companies = [{name: 'Bunger Steel', img: Bunger, alt: 'Bunger Steel LLC'},
 export default function Materials(){
 
     const makeParts = () =>{
-            return companies.map((c, i)=><span key={i}><Image src={c.img} alt={c.alt} width={100} height={100}/></span>)
+            return companies.map((c, i)=><span key={i}><Image src={c.img} alt={c.alt} width={120} height={110}/></span>)
     }
     return(<>
-            <div className='my-0'>
+            <div className='d-inline-flex my-0 mx-auto'>
             {makeParts()}
             </div>
           </>)
