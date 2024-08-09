@@ -84,3 +84,49 @@ $medium: 760px;
   font-variation-settings:
     "wdth" 100;
 }
+
+.open{ 
+    @media only screen and (max-width: 360px){  
+        body{
+            margin: 0px; 
+            margin-right: 0px;
+        } 
+        .open{margin: 0px;}
+    }
+
+//    background-color: burlywood; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100vw;
+   h4{
+   margin-left: 10px;  
+     @media only screen and (max-width: 360px){ 
+       margin: 0px;}
+   }
+
+} 
+
+.rolling{
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden !important; 
+    width: 100%;
+    animation: linear infinite !important;
+
+} 
+
+.rolling span {
+    display: inline-block;
+    padding-left: 100%; 
+    width: 100%;
+    animation: rolling 35s linear infinite !important;
+    } 
+    @keyframes rolling {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-250%, 0); }
+    }
+    .rolling:hover span:hover{
+        animation-play-state: paused !important;
+    }
+   

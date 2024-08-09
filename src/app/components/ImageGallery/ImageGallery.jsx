@@ -6,9 +6,9 @@ import images from '../../../../data/images.js'
 
 
 export default function ImageGallery(){
-        const makeImages = () =>images.map((p,i)=><div key={i} className="d-flex flex-column mx-auto col-lg-3"><Image height={500} width={500} src={p.src} alt={p.name}/></div>)
+        const makeImages = () =>images.map((p,i)=><div key={i} className="mx-auto col-lg-3 w-100"><Image height={500} width={500} src={p.src} alt={p.name}/></div>)
     return(<>
-            <div data-testid='shade' className="container col mx-auto ">
+            <div data-testid='shade' className="container col mx-auto w-75">
             <Carousel autoPlay infiniteLoop interval={5000}>
                 {makeImages()}
             </Carousel>

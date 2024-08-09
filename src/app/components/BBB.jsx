@@ -9,7 +9,7 @@ export default function BBB(){
             <div className='my-0 mx-auto'>
             <Link rel="nofollow" target="_blank" passHref={true} href={mybbb}>
             <Image 
-                src='/bbb.png'
+                src="/bbb.png"
                 width={220}
                 height={200}
                 alt='A+ Rating with Better Business Bureau'

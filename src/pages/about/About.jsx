@@ -1,11 +1,16 @@
+import React from 'react';
+import Head from 'next/head';
+import styles from './styles.css';
+import 'bootstrap/dist/css/bootstrap.css'
+
 
  const About = () =>(<>
         <Head>
           <title>About OK Corrals</title>
           <meta name="description" content="Learn about OK Corrals, our mission, and how we provide top-quality custom dog kennels, horse shade, and livestock shelters throughout Arizona." />
         </Head>
-        <main className={styles.container}>
-          <h1>About OK Corrals</h1>
+        <main className={`${styles.container} d-flex flex-column`}>
+          <h1 className='mx-auto'>About OK Corrals</h1>
           <p>
             At OK Corrals, we are driven by a deep passion for creating exceptional spaces and structures that support and enrich the lives of animals and their owners. Since our inception in 2006, our mission has been clear: to provide the highest quality custom dog kennels, horse shade, and livestock shelters throughout Arizona. We understand that every ranch, stable, and backyard is unique, and we are dedicated to tailoring our solutions to meet the specific needs of each client.
           </p>
@@ -17,4 +22,5 @@
           </p>
         </main>
         </>)
+
 export default About;
