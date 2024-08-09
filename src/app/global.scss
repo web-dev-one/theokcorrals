@@ -41,8 +41,9 @@ $medium: 760px;
             // font-weight: 900;
             color: wheat;
         }
-        background-image: url('/CPanelBarnCroppedShort.jpg');
-        background-size: contain;
+        // background-image: url('/CPanelBarnCroppedShort.jpg');
+        
+        background-size: cover;
         height: 30vh !important;
         .moveup{
                 position: relative;
@@ -113,7 +114,6 @@ $medium: 760px;
     overflow: hidden !important; 
     width: 100%;
     animation: linear infinite !important;
-
 } 
 
 .rolling span {
@@ -130,3 +130,12 @@ $medium: 760px;
         animation-play-state: paused !important;
     }
    
+.corrals{
+    background-color: rgb(166, 120, 85);
+    width: 100vw;
+   
+}
+
+.yellow{
+    color: yellow
+}
