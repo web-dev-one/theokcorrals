@@ -2,12 +2,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '../../app/global.scss'
 import '../styles/index.scss'
 import Layout from "../../app/components/Layout/layout"
-import Image from 'next/image'
 import BBB from '../../app/components/BBB'
 import Materials from '../../app/components/Materials'
 import ImageGallery from '../../app/components/ImageGallery/ImageGallery'
 import Link from 'next/link'
-import About from '../about/About'
+import images from '../../../data/shadeimages.js'
+
 
 export default function Shade(){
    
@@ -31,7 +31,7 @@ export default function Shade(){
                     </p>
                     <BBB />
                     <Materials />
-                    <ImageGallery />
+                    <ImageGallery images={images} />
                     </div>
                 </div>
             </Layout>

@@ -4,6 +4,6 @@ import OkCBarn from '../src/app/components/Barn'
 
 test('Barn', ()=>{
     render(<OkCBarn />)
-    expect(screen.getByText('Barn')).toBeDefined()
+    expect(screen.getByText('Steel Barns')).toBeDefined()
 
 })

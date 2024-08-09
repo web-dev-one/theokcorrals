@@ -1,10 +1,7 @@
-import { Inter, Rye, Kalnia } from "next/font/google";
+import { Inter, Rye } from "next/font/google";
+
 import "./globals.css";
 
-const kalnia = Kalnia({
-  weight: '700',
-  subsets: ['latin']
-})
 
 const inter = Inter({ subsets: ["latin"] });
 const rye = Rye({
@@ -18,6 +15,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
+
   return (
     <html lang="en">
       <body className={rye.className}>{children}</body>
